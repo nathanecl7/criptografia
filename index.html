@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECODIFICADOR E DECODIFICADOR DE TEXTO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecario">
+        <h1>CRIPTOGRAFIA E DESCRIPTOGRAFIA</h1>
+    </header>
+    <main>
+        <div class="principal">
+            <section class="principal1">
+            <textarea model="input" class="input1" id="textoDigitado" placeholder="Digite seu texto"></textarea>    
+            <div class="principal1-info">
+            <img class="principal1-img" src="./assets/exclamacao.png" alt="atencao">
+            <label class="principal1-paragrafo">Apenas letras minúsculas e sem acento.</label>
+            </div>                    
+            <div class="botoes">
+            <button class="botao1" id= "botaoCodifica">Criptografar</button>
+            <button class="botao2" id="botaoDescodifica">Descriptografar</button>
+            </div>
+            </section>
+            <section class="principal2">
+                <textarea model="input" class="input2" id="saidaTexto" placeholder="Nenhum texto digitado"></textarea>
+                <img class="principal2-img" id="semClick" src="./assets/sem_texto.png" alt="foto_sem_texto">
+                <h2 class="principal2-texto" id="aviso1">Nenhuma mensagem encontrada</h2>
+                <p class="principal2-paragrafo" id="aviso2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div class="botoes">
+                <button class="botao3" id="copiar">Copiar</button>
+                </div>
+            </section>      
+        </div>     
+    </main>
+    <footer>
+        <div class="rodape">
+            <p>Desenvolvido por <strong class="negrito">Nathane Campos Lima</strong></p>
+                <p>Em parceria com <strong class="negrito">Alura</strong></p>
+            <div class="apresentacao__links">
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__link" href="https://github.com/nathanecl7">
+                Github
+            </a>
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/nathane-campos-lima/">
+                Linkedin
+            </a>
+        </div>
+    </footer> 
+<script src="./app.js"></script>
+</body>
+</html>
